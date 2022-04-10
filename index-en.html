@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Leiff Solo</title>
+    <link rel="shortcut icon" href="img/icon-logo-header-night.png"/>
+    <link rel="stylesheet" href="css/stilo.css"/>
+    <script language="javascript" src="js/main-js.js"></script>
+</head>
+<body>
+    <header>   
+        <section id="top-name">
+        <ul>
+        <li id="icon-logo">
+            <a href=""><img id="icon-img" src="img/icon-logo-header.png"></a>
+            <a href=""><img id="icon-img2" src="img/icon-logo-header-night.png"></a>
+        </li>
+        <li id="menu-logo">
+        <nav>
+            <ul>
+            <li id="open-menu" onclick="openNav()">
+            <a><img id="icon-menu" src="img/list.svg"/></a>
+            <a><img id="icon-menu2" src="img/x.svg"/></a>
+            </li>
+            </ul>
+        </nav>
+        </li>
+        </ul>
+        </section>
+    </header>
+    <main id="body-site">
+        <section id="first-step">
+        <section id="site-content1">
+            <div id="news-game">
+                <figure class="news-game-info">
+                    <img src="img/painel1/dark-game1.png"/>
+                    <figcaption class="news-game-infop">
+                        <ul id="ul-news-game">
+                        <li>
+                        <h2>Games</h2>
+                        </li>
+                        <li>
+                        <p>All about the process and progress of game production, inquiries about new projects made together with the community...</p>
+                        </li>
+                        </ul>
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+        <section id="site-content2">
+            <div id="lat-img">
+                <figure id="shadow" class="lat-imgf">
+                <img src="img/painel3/temp2.png"/>
+                <figcaption class="lat-imgfg">
+                    <ul>
+                        <li>
+                        <h2 id="single">Projects</h2>
+                        </li>
+                        <li>
+                        <p id="single2">Access our project portal</p>
+                        </li>
+                    </ul>
+                </figcaption>
+                </figure>
+            </div>
+        </section>
+        <section id="site-content3">
+            <div id="dev-games">
+                <figure class="mini-img">
+                <img src="img/painel2/metaverse1.jpg" height="265px"/>
+                <figcaption class="inf-mini">
+                    <ul>
+                        <li>
+                        <h2>Teams</h2>
+                        </li>
+                        <li>
+                        <p>Updates on the health of the developer teams, new on-board members...</p>
+                        </li>
+                    </ul>
+                </figcaption>
+                </figure>
+            </div>
+            <div id="commu-projs">
+                <figure class="mini-img">
+                <img src="img/painel2.2/new-web-world1.png" height="265px"/>
+                <figcaption class="inf-mini">
+                    <ul>
+                        <li>
+                        <h2>News</h2>
+                        </li>
+                        <li>
+                        <p>The main news portal about the construction, analysis and development of games and projects...</p>
+                        </li>
+                    </ul>
+                </figcaption>
+                </figure>
+            </div>
+        </section>
+        </section>
+        <section id="second-step">
+            <section id="platform-sec">
+                <div id="platforms-painel">
+                <figure class="main-platform">
+                <img src="img/painel5/painel-main2.png" width="900"/>
+                <figcaption class="icons-platforms">
+                    <h3 id="portalsTXT">Portals</h3>
+                    <ul id="platSHDW">
+                        <li onclick="showICONS('playstation')">
+                            <a><img id="psIMG" src="img/painel5/playstation22.png" width="40"/></a>
+                        </li>
+                        <li onclick="showICONS('steam')">
+                            <a><img id="stIMG" src="img/painel5/steam22.png" width="40"/></a>
+                        </li>
+                        <li onclick="showICONS('xbox')">
+                            <a><img id="xbIMG" src="img/painel5/xbox22.png" width="40"/></a>
+                        </li>
+                    </ul>
+                </figcaption>
+                </figure>
+                </div>
+            </section>
+        </section>
+        <section id="third-step">
+            <div id="about-main">
+                <figure class="about-img">
+                    <img src="img/painel6/about-us2.png"/>
+                </figure>
+                <ul>
+                <li>
+                <p id="about-txt">We are an organization engaged in technological innovations that operate within the vast universe of electronic games (RPG and MMORPG), providing and giving life to stories, characters and scenarios that captivate and conquer the public.</p>
+                </li>
+                </ul>
+            </div>
+        </section>
+        <footer>
+            <p>Copyright © 2022</p>
+            <p>Designed by Gustavo Santos</p>
+            <p><a href="https://github.com/difarse">Github </a>- <a href="https://www.linkedin.com/in/gustavo-santos-b78b32196/">Linkedin</a></p>
+        </footer>
+    </main>
+    <div id="console">
+        <ul id="top">
+            <div id="console-blur">
+            <li id="darq2">
+                <img onclick="dark()" id="darq" src="img/painel-console/droplet-half.svg" width="30px"/>
+            </li>
+            <li>
+                <a href="index.html"><img src="img/painel-console/translate.svg" width="30px"/></a>
+            </li>
+            <li id="topButton" onclick="sobeT()">
+                <img src="img/painel-console/arrow-up-circle.svg" width="30px"/>
+            </li>
+            </div>
+        </ul>
+    </div>
+    <div id="myNav" class="overlay">
+        <nav id="overlay-content">
+            <ul>
+                <li id="menu-li"><a>Menu</a></li>
+                <li id="menu-name"><p>#Name User</p></li>
+                <li id="menu-img"><img src="img/test-menu-img2.png" width="90px"/></li>
+                <li><a href="#">#2</a></li>
+                <li><a href="#">#3</a></li>
+                <li><a href="#">#4</a></li>
+            </ul>
+        </nav>
+    </div>
+</body>
+</html>
